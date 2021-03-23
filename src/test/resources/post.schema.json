@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "args": {
-      "type": "integer"
+      "type": "object"
     },
     "data": {
       "type": "string"
