@@ -22,7 +22,7 @@ class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .header("content-type", equalTo("application/json; charset=utf-8"))
-                .body("data", equalTo("Looking for awesome QA? Их есть у нас"))
+                .body("data", equalTo("Looking for awesome QA? Их есть у нас!"))
         ;
     }
 
